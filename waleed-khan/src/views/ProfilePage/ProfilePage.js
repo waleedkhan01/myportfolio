@@ -475,6 +475,9 @@ export default function ProfilePage(props) {
                             <ReactPlayer playsinline = {true} config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip7} controls = {true} loop={true}/>
 
                             <a href="https://www.github.com/waleedkhan01/njitrideshare" className={myClasses.portfolioTitles}><p className={myClasses.portfolioTitles}>NJIT Rideshare</p></a>
+                            <Button href="https://www.github.com/waleedkhan01/njitrideshare" justIcon link className={myClasses.iconColor}>
+                                <i className={"fab fa-github"} />
+                            </Button>
                             <ReactPlayer playsinline = {true} config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip6} controls = {true} loop={true}/>
                           </GridItem>
                           <GridItem xs={12} sm={12} md={4}>
