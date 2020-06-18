@@ -251,7 +251,10 @@ export default function ProfilePage(props) {
                               
                                 <GridContainer justify="center" >
                                   <GridItem xs={12} sm={12} md={4}>
-                                  
+                                    <div>
+                                        <a href = "https://factpack.io" className={myClasses.portfolioTitles}><p className={myClasses.portfolioTitles}>FactPack</p></a>
+                                        <ReactPlayer playsinline = {true} config={{ file: { attributes: {controlsList: 'nodownload'}}}} pip={true} volume={0}  width="100%" height="auto" url={clip3} controls = {true} loop={true} />
+                                    </div>
                                     <div>
                                       <a href = "https://factpack.io" className={myClasses.portfolioTitles}><p className={myClasses.portfolioTitles}>FactPack</p></a>
                                       <div className={myClasses.portfolioItemSpace}>
@@ -289,20 +292,14 @@ export default function ProfilePage(props) {
                                         </Popover>
                                       </div>
                                     </div>
-                                    <div >
-                                        <a href = "https://factpack.io" className={myClasses.portfolioTitles}><p className={myClasses.portfolioTitles}>FactPack</p></a>
-                                         <ReactPlayer config={{ file: { attributes: {controlsList: 'nodownload'}}}} pip={true} volume={0}  width="100%" height="auto" url={clip3} controls = {true} loop={true} />
-                                    </div>
-                                  
-                                    
                                   </GridItem>
         
                                   <GridItem xs={12} sm={12} md={4}>
-                                    <div >
+                                    <div>
                                       <a href = "https://nynjweddingdecor.com" className={myClasses.portfolioTitles}><p className={myClasses.portfolioTitles}>NyNj Wedding Decor</p></a>
-                                       <ReactPlayer config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip4} controls = {true} loop={true}/>
+                                      <ReactPlayer playsinline = {true} config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip4} controls = {true} loop={true}/>
                                     </div>
-                                    <div className={myClasses.spacer}/>
+                                    {/* <div className={myClasses.spacer}/> */}
                                     
                                     <div>
                                       
@@ -356,6 +353,12 @@ export default function ProfilePage(props) {
                               <div>
                               <GridContainer justify="center" >
                                 <GridItem xs={12} sm={12} md={4}>
+                                  <div>
+                                    <a href = "https://legalscalellp.com" className={myClasses.portfolioTitles}><p className={myClasses.portfolioTitles}>Legal Scale</p></a>
+                                      {/* <div> */}
+                                    <ReactPlayer playsinline = {true} config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip2} controls = {true} loop={true}/>
+                                      {/* </div> */}
+                                  </div>
                                  
                                   <div>
                                     <a href = "https://legalscalellp.com" className={myClasses.portfolioTitles}><p className={myClasses.portfolioTitles}>Legal Scale</p></a>
@@ -393,21 +396,15 @@ export default function ProfilePage(props) {
                                         </Popover>
                                     </div>
                                   </div>
-                                  <div>
-                                    <a href = "https://legalscalellp.com" className={myClasses.portfolioTitles}><p className={myClasses.portfolioTitles}>Legal Scale</p></a>
-                                    <div>
-                                       <ReactPlayer config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip2} controls = {true} loop={true}/>
-                                    </div>
                                   
-                                  </div>
                                 </GridItem>
       
                                 <GridItem xs={12} sm={12} md={4}>
                                   <a href = "http://contrarianpartners.io" className={myClasses.portfolioTitles}><p className={myClasses.portfolioTitles}>Contrarian Partners</p></a>
-                                  <ReactPlayer config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip} controls = {true} loop={true} />
+                                  <ReactPlayer playsinline = {true} config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip} controls = {true} loop={true} />
                                    
-                                  <div className={myClasses.spacer}/>
-                                  <div>
+                                  {/* <div className={myClasses.spacer}/> */}
+                                  {/* <div> */}
                                     <a href = "http://contrarianpartners.io" className={myClasses.portfolioTitles}><p className={myClasses.portfolioTitles}>Contrarian Partners</p></a>
                                     <div className={myClasses.portfolioItemBlackSpace}>
                                       <img
@@ -442,7 +439,7 @@ export default function ProfilePage(props) {
                                           />
                                         </Popover>
                                     </div>
-                                  </div>
+                                  {/* </div> */}
                                 </GridItem>
                               </GridContainer>
                               </div>
@@ -473,14 +470,14 @@ export default function ProfilePage(props) {
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={4}>
                             <p className={myClasses.portfolioTitles}>StoGo</p>
-                            <ReactPlayer config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip7} controls = {true} loop={true}/>
+                            <ReactPlayer playsinline = {true} config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip7} controls = {true} loop={true}/>
 
                             <a href="https://www.github.com/waleedkhan01/njitrideshare" className={myClasses.portfolioTitles}><p className={myClasses.portfolioTitles}>NJIT Rideshare</p></a>
-                            <ReactPlayer config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip6} controls = {true} loop={true}/>
+                            <ReactPlayer playsinline = {true} config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip6} controls = {true} loop={true}/>
                           </GridItem>
                           <GridItem xs={12} sm={12} md={4}>
                             <p className={myClasses.portfolioTitles}>Productive NYC</p>
-                             <ReactPlayer config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip5} controls = {true} loop={true}/>
+                             <ReactPlayer playsinline = {true} config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip5} controls = {true} loop={true}/>
                             
                           </GridItem>
                         </GridContainer>
@@ -497,11 +494,11 @@ export default function ProfilePage(props) {
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={4}>
                            <a href = "https://github.com/waleedkhan01/WeatherApp" className={myClasses.portfolioTitles}><p className={myClasses.portfolioTitles}>Weather App</p></a>
-                             <ReactPlayer config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip8} controls = {true} loop={true}/>
+                             <ReactPlayer playsinline = {true} config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip8} controls = {true} loop={true}/>
                           </GridItem>
                           <GridItem xs={12} sm={12} md={4}>
                             <p className={myClasses.portfolioTitles}>Flash Chat</p>
-                             <ReactPlayer config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip9} controls = {true} loop={true}/>
+                             <ReactPlayer playsinline = {true} config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip9} controls = {true} loop={true}/>
                           </GridItem>
                         </GridContainer>
                         </div>
