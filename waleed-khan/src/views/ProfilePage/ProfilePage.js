@@ -253,6 +253,9 @@ export default function ProfilePage(props) {
                                   <GridItem xs={12} sm={12} md={4}>
                                     <div>
                                         <a href = "https://factpack.io" className={myClasses.portfolioTitles}><p className={myClasses.portfolioTitles}>FactPack</p></a>
+                                        <Button href="https://factpack.io" justIcon link className={myClasses.iconColor}>
+                                          <i className={"fa fa-globe"}/>
+                                        </Button>
                                         <ReactPlayer playsinline = {true} config={{ file: { attributes: {controlsList: 'nodownload'}}}} pip={true} volume={0}  width="100%" height="auto" url={clip3} controls = {true} loop={true} />
                                     </div>
                                     <div>
@@ -297,6 +300,9 @@ export default function ProfilePage(props) {
                                   <GridItem xs={12} sm={12} md={4}>
                                     <div>
                                       <a href = "https://nynjweddingdecor.com" className={myClasses.portfolioTitles}><p className={myClasses.portfolioTitles}>NyNj Wedding Decor</p></a>
+                                      <Button href = "https://nynjweddingdecor.com" justIcon link className={myClasses.iconColor}>
+                                          <i className={"fa fa-globe"}/>
+                                      </Button>
                                       <ReactPlayer playsinline = {true} config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip4} controls = {true} loop={true}/>
                                     </div>
                                     {/* <div className={myClasses.spacer}/> */}
@@ -356,6 +362,9 @@ export default function ProfilePage(props) {
                                   <div>
                                     <a href = "https://legalscalellp.com" className={myClasses.portfolioTitles}><p className={myClasses.portfolioTitles}>Legal Scale</p></a>
                                       {/* <div> */}
+                                    <Button href = "https://legalscalellp.com" justIcon link className={myClasses.iconColor}>
+                                      <i className={"fa fa-globe"}/>
+                                    </Button>
                                     <ReactPlayer playsinline = {true} config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip2} controls = {true} loop={true}/>
                                       {/* </div> */}
                                   </div>
@@ -401,10 +410,13 @@ export default function ProfilePage(props) {
       
                                 <GridItem xs={12} sm={12} md={4}>
                                   <a href = "http://contrarianpartners.io" className={myClasses.portfolioTitles}><p className={myClasses.portfolioTitles}>Contrarian Partners</p></a>
+                                  <Button href = "http://contrarianpartners.io" justIcon link className={myClasses.iconColor}>
+                                      <i className={"fa fa-globe"}/>
+                                  </Button>
                                   <ReactPlayer playsinline = {true} config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip} controls = {true} loop={true} />
                                    
                                   {/* <div className={myClasses.spacer}/> */}
-                                  {/* <div> */}
+                                  <div>
                                     <a href = "http://contrarianpartners.io" className={myClasses.portfolioTitles}><p className={myClasses.portfolioTitles}>Contrarian Partners</p></a>
                                     <div className={myClasses.portfolioItemBlackSpace}>
                                       <img
@@ -439,7 +451,7 @@ export default function ProfilePage(props) {
                                           />
                                         </Popover>
                                     </div>
-                                  {/* </div> */}
+                                  </div>
                                 </GridItem>
                               </GridContainer>
                               </div>
