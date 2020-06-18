@@ -1,13 +1,14 @@
 import { container, title } from "assets/jss/material-kit-react.js";
 
 import imagesStyle from "assets/jss/material-kit-react/imagesStyles.js";
-import work4 from "assets/img/examples/mariya-georgieva.jpg";
 
 
 const profilePageStyle = {
   container,
   profile: {
     textAlign: "center",
+    minWidth: "100%",
+    margin: 0,
     "& img": {
       maxWidth: "160px",
       width: "100%",
@@ -22,7 +23,7 @@ const profilePageStyle = {
   },
   description: {
     margin: "1.071rem auto 0",
-    maxWidth: "65%",
+    maxWidth: "75%",
     color: "#000",
     textAlign: "center !important",
     fontWeight: 400
@@ -37,7 +38,8 @@ const profilePageStyle = {
     zIndex: "3"
   },
   mainRaised: {
-    margin: "-60px 30px 0px",
+    // margin: "-60px 30px 0px",
+    margin: "-60px 15px 0px",
     borderRadius: "6px",
     boxShadow:
       "0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)"
@@ -71,9 +73,6 @@ const profilePageStyle = {
   },
   grid:{
     minWidth:"100%",
-  },
-  imageBackground:{
-    backgroundImage: work4
   },
 };
 
