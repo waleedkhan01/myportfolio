@@ -192,7 +192,7 @@ export default function ProfilePage(props) {
               <p>
                 Nice to meet you, I'm Waleed! I received a Bachelor's Degree in Computer Science from Rutgers University in 2019 and a Master's Degree in Computer Science from NJIT in 2020.
                 During my graduate study, I specialized in Computer Networking & Security and Databases & Datamining. Currently, I excel in Software Development and Data Analytics. 
-                Check out some of my work below!
+                Check out some of my work below and connect with me on LinkedIn!
                 {" "}
               </p>
             </div>
