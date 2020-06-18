@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9f182803fdc0907711188d6b10abc45b",
+    "revision": "e97ab364f648cf8c46880901182c5927",
     "url": "/index.html"
   },
   {
-    "revision": "d8135b1b49dac330f2bc",
+    "revision": "ee39f33edb64ed378d78",
     "url": "/static/css/main.126c14d6.chunk.css"
   },
   {
-    "revision": "1c5898af448f0192e958",
-    "url": "/static/js/2.6ec16005.chunk.js"
+    "revision": "77560f66154463919868",
+    "url": "/static/js/2.9738061c.chunk.js"
   },
   {
     "revision": "7da6abc5aec24a9b1d9d792b9d540711",
-    "url": "/static/js/2.6ec16005.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.9738061c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d8135b1b49dac330f2bc",
-    "url": "/static/js/main.e72c269e.chunk.js"
+    "revision": "ee39f33edb64ed378d78",
+    "url": "/static/js/main.24b767fd.chunk.js"
   },
   {
     "revision": "70eac0b77c84ca56cb5e",
@@ -68,20 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/analytics1.c3376319.png"
   },
   {
-    "revision": "c058841b1dd64e5f79c6348b24cfb78d",
-    "url": "/static/media/clem-onojegaw.c058841b.jpg"
-  },
-  {
-    "revision": "216ef03c54bc13771c5e1b8d8f8d5926",
-    "url": "/static/media/clem-onojeghuo.216ef03c.jpg"
-  },
-  {
     "revision": "106168470776ef41468f1e88cf8f65e9",
     "url": "/static/media/contrarian_img.10616847.png"
-  },
-  {
-    "revision": "9813593cc577a319a2201342ef0fb237",
-    "url": "/static/media/cynthia-del-rio.9813593c.jpg"
   },
   {
     "revision": "09a3f8703661dc7f4aa2f4a73e327705",
@@ -92,16 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/legalscale_img.9a08398d.png"
   },
   {
-    "revision": "4575c40bfb8dec6713d2da51c4c4066e",
-    "url": "/static/media/mariya-georgieva.4575c40b.jpg"
-  },
-  {
     "revision": "f30ae82d27d7f9fcf0f5ae3938822380",
     "url": "/static/media/nynj_img.f30ae82d.png"
-  },
-  {
-    "revision": "4112cbc1477d9e149033c5df66087e16",
-    "url": "/static/media/olu-eletu.4112cbc1.jpg"
   },
   {
     "revision": "4d5daae6c244e37a1c574fb4bfaa40b3",
@@ -110,25 +90,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2b8dbe83eb66bd878b4706368f665e58",
     "url": "/static/media/profile.2b8dbe83.jpg"
-  },
-  {
-    "revision": "ae0150c08dbcc95e4f50458e02e5bd5c",
-    "url": "/static/media/studio-1.ae0150c0.jpg"
-  },
-  {
-    "revision": "76e2987ed95634136dd22d4d9e1009a7",
-    "url": "/static/media/studio-2.76e2987e.jpg"
-  },
-  {
-    "revision": "1d5451ced89eabb55683e27e070bdb60",
-    "url": "/static/media/studio-3.1d5451ce.jpg"
-  },
-  {
-    "revision": "e064d0908dbd53b55f8980c02b3748bb",
-    "url": "/static/media/studio-4.e064d090.jpg"
-  },
-  {
-    "revision": "ef5c30ea69b7ad740ee6221782c73741",
-    "url": "/static/media/studio-5.ef5c30ea.jpg"
   }
 ]);

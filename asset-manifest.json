@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.126c14d6.chunk.css",
-    "main.js": "/static/js/main.e72c269e.chunk.js",
-    "main.js.map": "/static/js/main.e72c269e.chunk.js.map",
+    "main.js": "/static/js/main.24b767fd.chunk.js",
+    "main.js.map": "/static/js/main.24b767fd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.04ba5561.js",
     "runtime-main.js.map": "/static/js/runtime-main.04ba5561.js.map",
-    "static/js/2.6ec16005.chunk.js": "/static/js/2.6ec16005.chunk.js",
-    "static/js/2.6ec16005.chunk.js.map": "/static/js/2.6ec16005.chunk.js.map",
+    "static/js/2.9738061c.chunk.js": "/static/js/2.9738061c.chunk.js",
+    "static/js/2.9738061c.chunk.js.map": "/static/js/2.9738061c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.679908e82d11068dc2cc4e371daa8bf8.js": "/precache-manifest.679908e82d11068dc2cc4e371daa8bf8.js",
+    "precache-manifest.bdf6c44988be29b53ab711025749b574.js": "/precache-manifest.bdf6c44988be29b53ab711025749b574.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.126c14d6.chunk.css.map": "/static/css/main.126c14d6.chunk.css.map",
-    "static/js/2.6ec16005.chunk.js.LICENSE.txt": "/static/js/2.6ec16005.chunk.js.LICENSE.txt",
+    "static/js/2.9738061c.chunk.js.LICENSE.txt": "/static/js/2.9738061c.chunk.js.LICENSE.txt",
     "static/media/Contrarian.mp4": "/static/media/Contrarian.96356c6d.mp4",
     "static/media/FactPack.mp4": "/static/media/FactPack.5cb7401a.mp4",
     "static/media/FlashChat.mp4": "/static/media/FlashChat.fa8a495f.mp4",
@@ -23,27 +23,17 @@
     "static/media/WeatherApp.mp4": "/static/media/WeatherApp.c27ebe8e.mp4",
     "static/media/analytics1-full.png": "/static/media/analytics1-full.cc10fc60.png",
     "static/media/analytics1.png": "/static/media/analytics1.c3376319.png",
-    "static/media/clem-onojegaw.jpg": "/static/media/clem-onojegaw.c058841b.jpg",
-    "static/media/clem-onojeghuo.jpg": "/static/media/clem-onojeghuo.216ef03c.jpg",
     "static/media/contrarian_img.png": "/static/media/contrarian_img.10616847.png",
-    "static/media/cynthia-del-rio.jpg": "/static/media/cynthia-del-rio.9813593c.jpg",
     "static/media/factpack_img.png": "/static/media/factpack_img.09a3f870.png",
     "static/media/legalscale_img.png": "/static/media/legalscale_img.9a08398d.png",
-    "static/media/mariya-georgieva.jpg": "/static/media/mariya-georgieva.4575c40b.jpg",
     "static/media/nynj_img.png": "/static/media/nynj_img.f30ae82d.png",
-    "static/media/olu-eletu.jpg": "/static/media/olu-eletu.4112cbc1.jpg",
     "static/media/profile-bg-dark.jpg": "/static/media/profile-bg-dark.4d5daae6.jpg",
-    "static/media/profile.jpg": "/static/media/profile.2b8dbe83.jpg",
-    "static/media/studio-1.jpg": "/static/media/studio-1.ae0150c0.jpg",
-    "static/media/studio-2.jpg": "/static/media/studio-2.76e2987e.jpg",
-    "static/media/studio-3.jpg": "/static/media/studio-3.1d5451ce.jpg",
-    "static/media/studio-4.jpg": "/static/media/studio-4.e064d090.jpg",
-    "static/media/studio-5.jpg": "/static/media/studio-5.ef5c30ea.jpg"
+    "static/media/profile.jpg": "/static/media/profile.2b8dbe83.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.04ba5561.js",
-    "static/js/2.6ec16005.chunk.js",
+    "static/js/2.9738061c.chunk.js",
     "static/css/main.126c14d6.chunk.css",
-    "static/js/main.e72c269e.chunk.js"
+    "static/js/main.24b767fd.chunk.js"
   ]
 }
