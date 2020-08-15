@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.126c14d6.chunk.css",
-    "main.js": "/static/js/main.1bebbd59.chunk.js",
-    "main.js.map": "/static/js/main.1bebbd59.chunk.js.map",
+    "main.js": "/static/js/main.8d66bbe8.chunk.js",
+    "main.js.map": "/static/js/main.8d66bbe8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.04ba5561.js",
     "runtime-main.js.map": "/static/js/runtime-main.04ba5561.js.map",
-    "static/js/2.9738061c.chunk.js": "/static/js/2.9738061c.chunk.js",
-    "static/js/2.9738061c.chunk.js.map": "/static/js/2.9738061c.chunk.js.map",
+    "static/js/2.5275c643.chunk.js": "/static/js/2.5275c643.chunk.js",
+    "static/js/2.5275c643.chunk.js.map": "/static/js/2.5275c643.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.38ff668b346e0ba15fd5f08ef78ebe8f.js": "/precache-manifest.38ff668b346e0ba15fd5f08ef78ebe8f.js",
+    "precache-manifest.33905d0db3558f8b19fb6e724fdc771e.js": "/precache-manifest.33905d0db3558f8b19fb6e724fdc771e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.126c14d6.chunk.css.map": "/static/css/main.126c14d6.chunk.css.map",
-    "static/js/2.9738061c.chunk.js.LICENSE.txt": "/static/js/2.9738061c.chunk.js.LICENSE.txt",
+    "static/js/2.5275c643.chunk.js.LICENSE.txt": "/static/js/2.5275c643.chunk.js.LICENSE.txt",
     "static/media/Contrarian.mp4": "/static/media/Contrarian.96356c6d.mp4",
     "static/media/FactPack.mp4": "/static/media/FactPack.5cb7401a.mp4",
     "static/media/FlashChat.mp4": "/static/media/FlashChat.fa8a495f.mp4",
@@ -23,6 +23,8 @@
     "static/media/WeatherApp.mp4": "/static/media/WeatherApp.c27ebe8e.mp4",
     "static/media/analytics1-full.png": "/static/media/analytics1-full.cc10fc60.png",
     "static/media/analytics1.png": "/static/media/analytics1.c3376319.png",
+    "static/media/analytics2-full.png": "/static/media/analytics2-full.bea43da1.png",
+    "static/media/analytics2.png": "/static/media/analytics2.ce86a442.png",
     "static/media/contrarian_img.png": "/static/media/contrarian_img.10616847.png",
     "static/media/factpack_img.png": "/static/media/factpack_img.09a3f870.png",
     "static/media/legalscale_img.png": "/static/media/legalscale_img.9a08398d.png",
@@ -32,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.04ba5561.js",
-    "static/js/2.9738061c.chunk.js",
+    "static/js/2.5275c643.chunk.js",
     "static/css/main.126c14d6.chunk.css",
-    "static/js/main.1bebbd59.chunk.js"
+    "static/js/main.8d66bbe8.chunk.js"
   ]
 }
