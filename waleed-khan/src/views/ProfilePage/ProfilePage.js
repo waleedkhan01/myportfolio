@@ -42,8 +42,11 @@ import clip7 from "assets/videos/Stogo.mp4";
 import clip8 from "assets/videos/WeatherApp.mp4";
 import clip9 from "assets/videos/FlashChat.mp4";
 import clip10 from "assets/videos/ForWriters.mp4";
-import analytics1 from "assets/img/analytics1.png"
-import analytics1_Wide from "assets/img/analytics1-full.png"
+import analytics1 from "assets/img/analytics1.png";
+import analytics1_Wide from "assets/img/analytics1-full.png";
+import analytics2 from "assets/img/analytics2.png";
+import analytics2_Wide from "assets/img/analytics2-full.png";
+import debd from "assets/img/debd.png"
 
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 import myStyles from "assets/jss/myStyles.js";
@@ -538,10 +541,62 @@ export default function ProfilePage(props) {
                       tabContent: (
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={4}>
+                            <div>
+                                <a href = "https://github.com/waleedkhan01/R-StockAnalytics" className={myClasses.portfolioTitlesAnalytics}>
+                                <p className={myClasses.portfolioTitles}>Stock Correlations & Dividends in R</p>
+                                <Button href="https://github.com/waleedkhan01/R-StockAnalytics" justIcon link className={myClasses.iconColor}>
+                                  <i className={"fab fa-github"} />
+                                </Button>
+                              </a>
+                              <div>
+                              
+                                <img
+                                  alt="..."
+                                  src={analytics1}
+                                  className={navImageClasses}
+                                  onClick={handleClick5}
+                                />
+                                <Popover
+                                  id={id5}
+                                  open={open5}
+                                  anchorEl={anchorEl5}
+                                  onClose={handleClose5}
+                                  anchorReference="anchorPosition"
+                                  anchorPosition={{ top: 0, left: 0 }}
+                                >
+                                  <img
+                                        alt="..."
+                                        src={analytics1_Wide}
+                                        className={myStyles.portfolioModal}
+                                        onClick={handleClose5}
+                                        width="100%"
+                                        height="100%"
+                                  />
+                                </Popover>
+                              </div>
+                            </div>
+                            <div>
+                                <a href = "https://github.com/waleedkhan01/Files/blob/master/DeBD%20Twitter%20Bot%20Detection%20Research.pdf" className={myClasses.portfolioTitlesAnalytics}>
+                                <p className={myClasses.portfolioTitles}>DeBD Twitter Bot Detection Research</p>
+                                <Button href="https://github.com/waleedkhan01/Files/blob/master/DeBD%20Twitter%20Bot%20Detection%20Research.pdf" justIcon link className={myClasses.iconColor}>
+                                  <i className={"fab fa-github"} />
+                                </Button>
+                              </a>
+                              <div>
+                              
+                                <img
+                                  alt="..."
+                                  src={debd}
+                                  className={navImageClasses}
+                                />
+                              </div>
+                            </div>
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={4}>
                           <div>
-                              <a href = "https://github.com/waleedkhan01/R-StockAnalytics" className={myClasses.portfolioTitlesAnalytics}>
-                              <p className={myClasses.portfolioTitles}>Stock Correlations & Dividends in R</p>
-                              <Button href="https://github.com/waleedkhan01/R-StockAnalytics" justIcon link className={myClasses.iconColor}>
+                              <a href = "https://github.com/waleedkhan01/R-HousePricePrediction" className={myClasses.portfolioTitlesAnalytics}>
+                              <p className={myClasses.portfolioTitles}>House Price Prediction General Linear Model in R</p>
+                              <Button href="https://github.com/waleedkhan01/R-HousePricePrediction" justIcon link className={myClasses.iconColor}>
                                 <i className={"fab fa-github"} />
                               </Button>
                             </a>
@@ -549,7 +604,7 @@ export default function ProfilePage(props) {
                             
                               <img
                                 alt="..."
-                                src={analytics1}
+                                src={analytics2}
                                 className={navImageClasses}
                                 onClick={handleClick5}
                               />
@@ -563,7 +618,7 @@ export default function ProfilePage(props) {
                               >
                                 <img
                                       alt="..."
-                                      src={analytics1_Wide}
+                                      src={analytics2_Wide}
                                       className={myStyles.portfolioModal}
                                       onClick={handleClose5}
                                       width="100%"
