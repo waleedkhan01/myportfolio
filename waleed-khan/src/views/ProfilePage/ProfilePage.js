@@ -41,6 +41,7 @@ import clip6 from "assets/videos/RideShare.mp4";
 import clip7 from "assets/videos/Stogo.mp4";
 import clip8 from "assets/videos/WeatherApp.mp4";
 import clip9 from "assets/videos/FlashChat.mp4";
+import clip10 from "assets/videos/ForWriters.mp4";
 import analytics1 from "assets/img/analytics1.png"
 import analytics1_Wide from "assets/img/analytics1-full.png"
 
@@ -469,23 +470,39 @@ export default function ProfilePage(props) {
                       tabContent: (
                         <div>
                        
-                        <GridContainer justify="center">
-                          <GridItem xs={12} sm={12} md={4}>
-                            <p className={myClasses.portfolioTitles}>StoGo</p>
-                            <ReactPlayer playsinline = {true} config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip7} controls = {true} loop={true}/>
+                          <GridContainer justify="center">
+                            <GridItem xs={12} sm={12} md={4}>
 
-                            <a href="https://www.github.com/waleedkhan01/njitrideshare" className={myClasses.portfolioTitles}><p className={myClasses.portfolioTitles}>NJIT Rideshare</p></a>
-                            <Button href="https://www.github.com/waleedkhan01/njitrideshare" justIcon link className={myClasses.iconColor}>
-                                <i className={"fab fa-github"} />
-                            </Button>
-                            <ReactPlayer playsinline = {true} config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip6} controls = {true} loop={true}/>
-                          </GridItem>
-                          <GridItem xs={12} sm={12} md={4}>
-                            <p className={myClasses.portfolioTitles}>Productive NYC</p>
-                             <ReactPlayer playsinline = {true} config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip5} controls = {true} loop={true}/>
+                              <p className={myClasses.portfolioTitles}>Productive NYC</p>
+                              <Button disabled justIcon link className={myClasses.iconColor}>
+                                  {/* <i className={"fab fa-app-store"} /> */}
+                              </Button>
+                              <ReactPlayer playsinline = {true} config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip5} controls = {true} loop={true}/>
+                              <div className={myClasses.spacer}/>
+                              <p className={myClasses.portfolioTitles}>StoGo</p>
+                              <Button disabled justIcon link className={myClasses.iconColor}>
+                                  {/* <i className={"fab fa-app-store"} /> */}
+                              </Button>
+                              <ReactPlayer playsinline = {true} config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip7} controls = {true} loop={true}/>
                             
-                          </GridItem>
-                        </GridContainer>
+                            </GridItem>
+                            <GridItem xs={12} sm={12} md={4}>
+
+                              <a href="https://apps.apple.com/us/app/for-writers/id1546794394" className={myClasses.portfolioTitles}><p className={myClasses.portfolioTitles}>For Writers</p></a>
+                              <Button href="https://apps.apple.com/us/app/for-writers/id1546794394" justIcon link className={myClasses.iconColor}>
+                                  <i className={"fab fa-app-store"} />
+                              </Button>
+                              <ReactPlayer playsinline = {true} config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip10} controls = {true} loop={true}/>
+                              <div className={myClasses.spacer}/>
+                              <a href="https://www.github.com/waleedkhan01/njitrideshare" className={myClasses.portfolioTitles}><p className={myClasses.portfolioTitles}>NJIT Rideshare</p></a>
+                              <Button href="https://www.github.com/waleedkhan01/njitrideshare" justIcon link className={myClasses.iconColor}>
+                                  <i className={"fab fa-github"} />
+                              </Button>
+                              <ReactPlayer playsinline = {true} config={{ file: { attributes: {controlsList: 'nodownload'}}}}  pip={true} volume={0}  width="100%" height="auto" url={clip6} controls = {true} loop={true}/>
+                            
+                            </GridItem>
+                            
+                          </GridContainer>
                         </div>
                       )
                     },
